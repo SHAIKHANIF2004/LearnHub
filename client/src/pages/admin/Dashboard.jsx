@@ -10,7 +10,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-
+//this is dashboard function
 const Dashboard = () => {
   const { data, isLoading, isError, isSuccess } =
     useGetAllPurchasedCoursesQuery();
